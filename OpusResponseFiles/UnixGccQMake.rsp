@@ -1,0 +1,8 @@
+-buildroot=../../build
+-builder=QMake
+-platforms=unix64
+-configurations=debug
+-C.toolchain=gcc
+-verbosity=2
+-j=4
+

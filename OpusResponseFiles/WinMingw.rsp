@@ -1,0 +1,7 @@
+-buildroot=..\..\build
+-builder=Native
+-platforms=win32
+-configurations=debug;optimized
+-C.toolchain=mingw
+-verbosity=2
+-j=4

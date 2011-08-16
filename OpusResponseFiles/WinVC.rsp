@@ -1,0 +1,7 @@
+-buildroot=..\..\build
+-builder=VSSolution
+-platforms=win32
+-configurations=debug;optimized
+-C.toolchain=visualc
+-verbosity=2
+

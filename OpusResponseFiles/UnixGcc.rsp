@@ -1,0 +1,8 @@
+-buildroot=../../build
+-builder=Native
+-platforms=unix64
+-configurations=debug;optimized
+-C.toolchain=gcc
+-verbosity=2
+-j=4
+
