@@ -1,2 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<RequiredPackages xsi:noNamespaceSchemaLocation="/home/mark/dev/Opus/trunk/bin/Debug/Schema/OpusPackageDependency.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<RequiredPackages xsi:noNamespaceSchemaLocation="/home/mark/dev/Opus/trunk/bin/Debug/Schema/OpusPackageDependency.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Package Name="C" Version="dev" />
+  <Package Name="Gcc" Version="4.4" />
+  <Package Name="NativeBuilder" Version="dev" />
+</RequiredPackages>

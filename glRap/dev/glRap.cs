@@ -2,4 +2,17 @@
 namespace glRap
 {
     // Define module classes here
+    class glrap : C.DynamicLibrary
+    {
+        sealed class SourceFiles : C.ObjectFileCollection
+        {
+            public SourceFiles()
+            {
+                this.AddRelativePaths(this, "source", "unix", "entrypoint.cpp");
+            }
+        }
+
+        [Opus.Core.SourceFiles]
+        SourceFiles sourceFiles = new SourceFiles();
+    }
 }
