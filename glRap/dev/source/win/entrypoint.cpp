@@ -21,6 +21,9 @@ BOOL WINAPI DllMain(
   __in  LPVOID lpvReserved
 )
 {
+    (void)lpvReserved;
+    (void)hinstDLL;
+
     switch (fdwReason)
     {
     case DLL_PROCESS_ATTACH:
@@ -30,8 +33,6 @@ BOOL WINAPI DllMain(
     case DLL_PROCESS_DETACH:
         my_unload();
         break;
-        
-    default:
     }
     
     return 0;
